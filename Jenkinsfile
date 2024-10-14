@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                git branch: 'pipeline', url: 'https://github.com/lsantos08qa/teste-e2e-ebac.git'
+                git url: 'https://github.com/lsantos08qa/teste-e2e-ebac.git', branch: 'pipeline'
                 sh 'npm install'
             }
         }
