@@ -12,8 +12,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
     it('Deve selecionar produtos e concluir pedido', () => {
         let qtd = 2
-        produtosPage.buscarProdutoLista('Abominable Hoodie')
-        produtosPage.addProdutoCarrinho('L', 'Blue', qtd)
+        produtosPage.buscarProdutoLista('Aero Daily Fitness Tee')
+        produtosPage.addProdutoCarrinho('L', 'Black', qtd)
         produtosPage.visitarProduto('Aether Gym Pant')
         produtosPage.addProdutoCarrinho('36', 'Brown', qtd)
         produtosPage.buscarProduto('Atlas Fitness Tank')
